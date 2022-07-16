@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #0b89fd;
+  font-family: "Oswald", sans-serif;
+}
+
+.quiz {
+  display: grid;
+  grid-template-rows: 60px;
+  width: 800px;
+  height: 500px;
+  background-color: antiquewhite;
+  border-radius: 1rem 1rem 1rem 1rem;
+  font-weight: bold;
+}
+
+.quiz_header {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 1rem 1rem 0 0;
+  box-shadow: 0px 2px 3px 1px rgba(0, 0, 0, 0.3);
+  z-index: 1;
+  background-color: #fd3f01;
+  color: #f8f8f8;
+}
+
+.quiz_user {
+  padding: 0 2rem;
+}
+
+.quiz_timer {
+  padding: 0 2rem 0;
+  background-color: #fec90e;
+  border-radius: 0 1rem 0 0;
+}
+
+.quiz_body {
+  background-color: #f8f8f8;
+  border-radius: 0 0 1rem 1rem;
+  padding: 2rem;
+}
+
+.quiz_body h2 {
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: 2rem;
+}
+
+ul li {
+  display: flex;
+  width: max-content;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  background-color: #fec90e;
+  margin: 0 0 1.5rem 0;
+  padding: 10px;
+  border-radius: 25px;
+  border: 3px solid transparent;
+}
+
+.option:hover {
+  cursor: pointer;
+  border: 3px solid black;
+}
+
+.btn-next {
+  display: flex;
+  padding: 1rem;
+  color: white;
+  border: 3px solid transparent;
+  border-radius: 40px;
+  background-color: #0b89fd;
+}
+
+.btn-next:hover {
+  cursor: pointer;
+  color: #0b89fd;
+  background-color: white;
+  border: 3px solid #0b89fd;
+}
+
+.flex {
+  display: flex;
+}
+.text-center {
+  justify-content: space-evenly;
+  align-items: center;
+}
